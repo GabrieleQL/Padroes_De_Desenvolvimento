@@ -1,0 +1,40 @@
+{
+  "name": "padroesdedesenvolvimento",
+  "version": "1.0.0",
+  "description": "Este repositório tem como objetivo a comparação entre Padrões de Desenvolvimento de Template Method e Observer",
+  "main": "index.js",
+  "scripts": {
+  "dev:method": "ts-node src/Method_Template/index.ts",
+  "dev:mediator": "ts-node src/Mediator/index.ts",
+  "dev:observer": "ts-node src/Observer/index.ts",
+  "build": "tsc"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrieleQL/Padroes_De_Desenvolvimento.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GabrieleQL/Padroes_De_Desenvolvimento/issues"
+  },
+  "homepage": "https://github.com/GabrieleQL/Padroes_De_Desenvolvimento#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src"]
+
+
+}
