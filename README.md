@@ -5,6 +5,7 @@ Este repositório tem como objetivo a comparação de Padrões de Desenvolviment
 Os padrões a serem comparados são: Mediator, Observer e Template Method.
 
 ---
+# Padrão Mediator
 
 # Padrão Observer
 
@@ -62,3 +63,7 @@ O Observer resolve isso desacoplando quem muda de quem quer saber da mudança.
 O padrão Observer é essencial quando diversos objetos precisam reagir automaticamente à mudança de um estado. Ele garante flexibilidade, extensibilidade e baixo acoplamento, permitindo construir sistemas mais modulares e fáceis de manter.
 
 Por esses motivos, é um dos padrões comportamentais mais utilizados no desenvolvimento de software moderno.
+
+# Padrão Template Method
+
+# Conclusão
