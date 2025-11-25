@@ -176,7 +176,7 @@ Mas algo que não devo deixar de falar é que, não se prenda a um único padrã
 Não tenha medo do desconhecido e do desconforto, apenas conheça/aprenda e pratique.
 
 ## Conclusão
-O padrão Mediator tem como principal característica a centralização da comunicação entre objetos em um componente intermediário, promovendo a redução do acoplamento e a separação de responsabilidades. Ao eliminar a necessidade de comunicação direta entre as classes, o padrão contribui para uma arquitetura mais flexível e modular, facilitando a manutenção e a inclusão de novos componentes sem impactar as estruturas previamente existentes.
+O padrão Mediator tem como principal característica a centralização da comunicação entre objetos em um componente intermediário, promovendo a redução do acoplamento e a separação de responsabilidades. Ao eliminar a necessidade de comunicação direta entre as classes, o padrão contribui para uma arquitetura mais flexível e modular, facilitando a manutenção e a inclusão de novos componentes sem impactar as estruturas previamente existentes. 
 
 O padrão Observer é essencial quando diversos objetos precisam reagir automaticamente à mudança de um estado. Ele garante flexibilidade, extensibilidade e baixo acoplamento, permitindo construir sistemas mais modulares e fáceis de manter. Por esses motivos, é um dos padrões comportamentais mais utilizados no desenvolvimento de software moderno.
 
