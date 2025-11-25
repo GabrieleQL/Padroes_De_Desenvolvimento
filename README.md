@@ -93,7 +93,7 @@ Considerações finais
 Sob a ótica da Engenharia de Software, o padrão Mediator representa uma solução eficaz para o controle da complexidade em sistemas distribuídos de comunicação intensiva. Seu uso contribui para a melhoria da qualidade estrutural do software, alinhando-se a princípios modernos de design e arquitetura, e promovendo sistemas mais robustos, escaláveis e sustentáveis.
 
 # Padrão Template Method
-É um padrão de projeto comportamental que define o esqueleto de um algoritmo em uma classe base, aqui para nós estaremos utilizando a classe 'Animal' como exemplo.
+É um padrão de projeto comportamental que define o esqueleto de um algoritmo em uma classe base (na superclasse), aqui estaremos utilizando a classe 'Animal' como exemplo de classe base.
 
 Esse padrão permite que as subclasses implementem apenas as partes específicas que variam.
 
