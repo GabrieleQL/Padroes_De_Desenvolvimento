@@ -4,7 +4,7 @@
 Este repositório tem como objetivo a comparação de Padrões de Desenvolvimento como um trabalho avaliativo da cadeira de Engenharia de Software II. 
 Os padrões a serem comparados são: Mediator, Observer e Template Method.
 
-Padrão de desenvolvimento Mediator:
+# Padrão de desenvolvimento Mediator:
 
 O padrão de projeto Mediator é um padrão comportamental cujo propósito é desacoplar objetos fortemente interdependentes por meio da introdução de um componente intermediário responsável por gerenciar e orquestrar a comunicação entre eles. Em vez de os componentes se comunicarem diretamente, todas as interações passam a ser conduzidas pelo mediador, reduzindo drasticamente o grau de dependência estrutural do sistema.
 
