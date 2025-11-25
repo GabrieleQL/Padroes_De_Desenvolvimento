@@ -5,10 +5,19 @@ export class Cavalo {
         this.nome = nome;
     }
 
-    public apresentar(): void {
+    public meChamo(): void {
         console.log(`Olá, eu sou o cavalo ${this.nome}`);
-        console.log("Cavalo >> Eu me alimento de capim, feno e silagem");
-        console.log("Cavalo >> Eu Troteio");
-        console.log("Cavalo >> Eu durmo em pé");
     }
+
+    public seAlimentar(): void {
+        console.log("Cavalo >> Eu me alimento de capim, feno e silagem");
+    }
+
+    public seMover(): void {
+        console.log("Cavalo >> Eu Troteio");
+    }
+
+    public dormir(): void {
+        console.log("Cavalo >> Eu durmo em pé");
+    } 
 }

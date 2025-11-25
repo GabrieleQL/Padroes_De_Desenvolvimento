@@ -11,5 +11,5 @@ export class Golfinho extends Animal {
 
     protected dormir(): void {
         console.log("Golfinho >> Eu durmo na água");
-    }
+    } 
 }

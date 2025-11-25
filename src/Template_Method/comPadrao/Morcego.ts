@@ -12,4 +12,4 @@ export class Morcego extends Animal {
     protected dormir(): void {
         console.log("Morcego >> Eu durmo de cabeça pra baixo");
     }
-}
+} 

@@ -11,5 +11,5 @@ export class Cavalo extends Animal {
 
     protected dormir(): void {
         console.log("Cavalo >> Eu durmo em pé");
-    }
+    } 
 }
