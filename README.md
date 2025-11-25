@@ -183,3 +183,6 @@ Ao eliminar a necessidade de comunicação direta entre as classes, o padrão co
 O padrão Observer é essencial quando diversos objetos precisam reagir automaticamente à mudança de um estado. Ele garante flexibilidade, extensibilidade e baixo acoplamento, permitindo construir sistemas mais modulares e fáceis de manter. Por esses motivos, é um dos padrões comportamentais mais utilizados no desenvolvimento de software moderno.
 
 Utilizar o padrão Template Method significa ter métodos que possibilitam resultados diferentes, segundo a necessidade específica de cada classe, sem mudar a sua estrutura, disponibilizando da reutilização do código.
+
+O padrão Mediator centraliza a comunicação entre objetos, evitando que eles dependam diretamente uns dos outros. O Observer permite que objetos sejam notificados automaticamente quando ocorre uma mudança de estado em outro objeto. Já o Template Method define a estrutura fixa de um algoritmo, permitindo que subclasses personalizem etapas específicas sem alterar sua ordem.
+
