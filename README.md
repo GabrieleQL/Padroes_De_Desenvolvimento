@@ -93,11 +93,12 @@ Considerações finais
 Sob a ótica da Engenharia de Software, o padrão Mediator representa uma solução eficaz para o controle da complexidade em sistemas distribuídos de comunicação intensiva. Seu uso contribui para a melhoria da qualidade estrutural do software, alinhando-se a princípios modernos de design e arquitetura, e promovendo sistemas mais robustos, escaláveis e sustentáveis.
 
 # Padrão Template Method
-É um padrão de projeto comportamental que define o esqueleto de um algoritmo em uma classe base (na superclasse), aqui estaremos utilizando a classe 'Animal' como exemplo de classe base.
+É um padrão de projeto comportamental que define o esqueleto de um algoritmo em uma classe base (na superclasse). Aqui estaremos utilizando a classe 'Animal' como exemplo de classe base.
 
 Esse padrão permite que as subclasses implementem apenas as partes específicas que variam.
+O que muda não é a estrutura, mas sim o resultado.
 
-Em nosso exemplo sem o padrão, temos as classes Cavalo, Golfinho e Morcego, ambos possuem os métodos seAlimentar, seMovimentar e dormir, e isso acaba nos trazendo repeticões de código.
+Em nosso exemplo sem o padrão, temos as classes Cavalo, Golfinho e Morcego, ambos possuem os métodos seAlimentar, seMover e dormir, e isso acaba nos trazendo repeticões de código.
 
 Ao utilizarmos o padrão Template Method, iremos também criar uma super classe chamada Animal, nela é onde estará a definição do fluxo e o padrão (o esqueleto), e isso nos trará vantagem, teremos menos repetição de código.
 
@@ -109,15 +110,16 @@ Sabemos que o Cavalo dorme em pé, que o Morcego dorme de cabeça para baixo, e 
 
 Agora, qual é a diferença?
 
-A diferença é que a forma como eles dormem é diferente. Eles utilização da mesma ação (dormir), mas a forma como cada um realiza essa ação, é diferente, e esse é o sentido do padrão de desenvolvimento Template Method.
+A diferença é que a forma como eles dormem é diferente. Eles utilização da mesma ação (dormir), mas o resultado dessa ação, é diferente, e esse é o sentido do padrão de desenvolvimento Template Method.
+Ele disponibiliza de um esqueleto, de uma mesma estrutura para todas as subclasses, mas que podem ser utilizados da forma que bem se encaixa em cada uma das subclasses. 
 
-Ter métodos que te possibilitam resultados diferentes, segundo a necessidade específica de cada classe.
+Ou seja, utilizar o padrão Template Method significa ter métodos que te possibilitam resultados diferentes, segundo a necessidade específica de cada classe, sem mudar a sua estrutura.
 
 Mas, além dessas vantagens, a utilização desse padrão pode limitar a flexibilidade, devido as subclasses herdarem da superclasse. Mudanças na superclasse podem impactar todas as subclasses.
 
 Não é aconselhável utilizar esse padrão em casos simples, pois pode tornar o código mais complicado do que precisa.
 
-Mas você pode usar quando há um fluxo fixo que deve ser seguido por diferentes classes, mas com detalhes variáveis, como o método 'dormir'. Pode utilizá-lo quando você quer evitar duplicação e manter consistência entre várias implementações.
+Mas você pode usar quando há um fluxo fixo que deve ser seguido por diferentes classes, mas com detalhes variáveis, como os métodos 'seAlimentar, 'seMover' e 'dormir'. Pode utilizá-lo quando você quer evitar duplicação e manter consistência entre várias implementações.
 
 Mas algo que não devo deixar de falar é que, não se prenda a um único padrão, pois há outros que podem se encaixar melhor naquilo a qual você procura como solução.
 
