@@ -4,9 +4,11 @@
 Este repositório tem como objetivo a comparação de Padrões de Desenvolvimento como um trabalho avaliativo da cadeira de Engenharia de Software II. 
 Os padrões a serem comparados são: Mediator, Observer e Template Method.
 
-# Padrão de desenvolvimento Mediator:
+# Padrão Mediator:
 
-O padrão de projeto Mediator é um padrão comportamental cujo propósito é desacoplar objetos fortemente interdependentes por meio da introdução de um componente intermediário responsável por gerenciar e orquestrar a comunicação entre eles. Em vez de os componentes se comunicarem diretamente, todas as interações passam a ser conduzidas pelo mediador, reduzindo drasticamente o grau de dependência estrutural do sistema.
+Tendo como principal característica a centralização da comunicação entre objetos em um componente intermediário, promovendo a redução do acoplamento e a separação de responsabilidades,
+o padrão de projeto Mediator é um padrão comportamental cujo propósito é desacoplar objetos fortemente interdependentes por meio da introdução de um componente intermediário responsável por gerenciar e orquestrar a comunicação entre eles. Em vez de os componentes se comunicarem diretamente, todas as interações passam a ser conduzidas pelo mediador, reduzindo drasticamente o grau de dependência estrutural do sistema.
+
 
 Em arquiteturas nas quais múltiplos componentes interagem de forma intensa, a comunicação direta tende a gerar um elevado acoplamento e uma malha de dependências complexas, dificultando sobremaneira a manutenção, a testabilidade e a evolução do software. Esse cenário viola princípios fundamentais da engenharia de software, como o princípio da responsabilidade única (SRP) e o princípio do baixo acoplamento e alta coesão.
 
@@ -176,7 +178,7 @@ Mas algo que não devo deixar de falar é que, não se prenda a um único padrã
 Não tenha medo do desconhecido e do desconforto, apenas conheça/aprenda e pratique.
 
 ## Conclusão
-O padrão Mediator tem como principal característica a centralização da comunicação entre objetos em um componente intermediário, promovendo a redução do acoplamento e a separação de responsabilidades. Ao eliminar a necessidade de comunicação direta entre as classes, o padrão contribui para uma arquitetura mais flexível e modular, facilitando a manutenção e a inclusão de novos componentes sem impactar as estruturas previamente existentes. 
+Ao eliminar a necessidade de comunicação direta entre as classes, o padrão contribui para uma arquitetura mais flexível e modular, facilitando a manutenção e a inclusão de novos componentes sem impactar as estruturas previamente existentes. 
 
 O padrão Observer é essencial quando diversos objetos precisam reagir automaticamente à mudança de um estado. Ele garante flexibilidade, extensibilidade e baixo acoplamento, permitindo construir sistemas mais modulares e fáceis de manter. Por esses motivos, é um dos padrões comportamentais mais utilizados no desenvolvimento de software moderno.
 
