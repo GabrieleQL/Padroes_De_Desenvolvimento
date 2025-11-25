@@ -65,5 +65,34 @@ O padrão Observer é essencial quando diversos objetos precisam reagir automati
 Por esses motivos, é um dos padrões comportamentais mais utilizados no desenvolvimento de software moderno.
 
 # Padrão Template Method
+É um padrão de projeto comportamental que define o esqueleto de um algoritmo em uma classe base, aqui para nós estaremos utilizando a classe 'Animal' como exemplo.
+
+Esse padrão permite que as subclasses implementem apenas as partes específicas que variam.
+
+Em nosso exemplo sem o padrão, temos as classes Cavalo, Golfinho e Morcego, ambos possuem os métodos seAlimentar, seMovimentar e dormir, e isso acaba nos trazendo repeticões de código.
+
+Ao utilizarmos o padrão Template Method, iremos também criar uma super classe chamada Animal, nela é onde estará a definição do fluxo e o padrão (o esqueleto), e isso nos trará vantagem, teremos menos repetição de código.
+
+Para ficar mais fácil a compreensão desse padrão, apresentarei a seguinte explicação segundo os códigos da pasta do padrão Template Method.
+.
+.
+.
+Sabemos que o Cavalo dorme em pé, que o Morcego dorme de cabeça para baixo, e que o Golfinho dorme na água. Esse é o método 'dormir', e ambos animais (apresentados como exemplo no código) possuem esse método.
+
+Agora, qual é a diferença?
+
+A diferença é que a forma como eles dormem é diferente. Eles utilização da mesma ação (dormir), mas a forma como cada um realiza essa ação, é diferente, e esse é o sentido do padrão de desenvolvimento Template Method.
+
+Ter métodos que te possibilitam resultados diferentes, segundo a necessidade específica de cada classe.
+
+Mas, além dessas vantagens, a utilização desse padrão pode limitar a flexibilidade, devido as subclasses herdarem da superclasse. Mudanças na superclasse podem impactar todas as subclasses.
+
+Não é aconselhável utilizar esse padrão em casos simples, pois pode tornar o código mais complicado do que precisa.
+
+Mas você pode usar quando há um fluxo fixo que deve ser seguido por diferentes classes, mas com detalhes variáveis, como o método 'dormir'. Pode utilizá-lo quando você quer evitar duplicação e manter consistência entre várias implementações.
+
+Mas algo que não devo deixar de falar é que, não se prenda a um único padrão, pois há outros que podem se encaixar melhor naquilo a qual você procura como solução.
+
+Não tenha medo do desconhecido e do desconforto, apenas conheça/aprenda e pratique.
 
 # Conclusão
